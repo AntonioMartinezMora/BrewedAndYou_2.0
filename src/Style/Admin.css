@@ -22,6 +22,10 @@
     align-items: center;
 }
 
+.login__cont.close{
+    display: none;
+}
+
 /* BUTTONS */
 .signout__btn{
     border: none;
