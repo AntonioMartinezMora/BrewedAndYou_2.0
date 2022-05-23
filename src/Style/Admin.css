@@ -1,0 +1,54 @@
+.admin__page{
+    min-height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+
+/* CONTAINERS */
+.login__cont{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* BUTTONS */
+.signout__btn{
+    border: none;
+    background-color: var(--dark-blue);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: var(--light-blue);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.login__btn{
+    border: none;
+    background-color: var(--blue);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: var(--dark-blue);
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* LOG IN PAGE */
+.login__email,
+.login__password{
+    border: solid 1px var(--blue);
+    margin: 5px;
+    padding: 10px 20px;
+    outline: none;
+}

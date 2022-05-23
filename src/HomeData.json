@@ -1,0 +1,92 @@
+[
+    {
+        "hero": "main",
+        "type": "trends",
+        "id": "trend-three",
+        "index": 23,
+        "image": "https://i.pinimg.com/736x/47/dc/42/47dc425caff67c1e10a9b8eecc36a859.jpg",
+        "title": "this a great third trend needs to be longer",
+        "short": "lit id rhoncus elementum, tortor sem luctus magna two words more"
+    },
+    {
+        "hero": "side",
+        "type": "discover",
+        "id": "sample-coffe-14",
+        "index": 14,
+        "image": "https://images.pexels.com/photos/7937416/pexels-photo-7937416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "title": "Coffee 14",
+        "short": "lit id rhoncus elementum, tortor sem luctus magna"
+    },
+    {
+        "hero": "side",
+        "type": "news",
+        "id": "news-four",
+        "index": 29,
+        "image": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2016/5/23/0/FOD16_Kenna-Stout_Transformation_5-coffee-table.jpg.rend.hgtvcom.616.347.suffix/1464013011169.jpeg",
+        "title": "this a great fourth news",
+        "short": "lit id rhoncus elementum, tortor sem luctus magna two words more"
+    },
+    {
+        "hero": "side",
+        "type": "trends",
+        "id": "trend-five",
+        "index": 25,
+        "image": "https://twigscafe.com/wp-content/uploads/2021/06/selection-of-different-coffee-type.jpg",
+        "title": "this a great fitfh trend",
+        "short": "lit id rhoncus elementum, tortor sem luctus magna two words more"
+    },
+    {
+        "hero": "discover",
+        "country": "england",
+        "id": "sample-coffe-6",
+        "index": 6,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBAUOxrYI6tum1e51hoExkMmcYPFHfz4lIYEO3tvqp2TIhCJy2nY_tSeUgdOvHGMDqnnY&usqp=CAU",
+        "title": "Coffee 6",
+        "short": "lit id rhoncus elementum, tortor sem luctus magna"
+    },
+    {
+        "hero": "discover",
+        "country": "italy",
+        "id": "sample-coffe-2",
+        "index": 2,
+        "image": "https://images.pexels.com/photos/982612/pexels-photo-982612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "title": "Coffee 2",
+        "short": "lit id rhoncus elementum, tortor sem luctus magna"
+    },
+    {
+        "hero": "discover",
+        "country": "italy",
+        "id": "sample-coffe-16",
+        "index": 16,
+        "image": "https://images.pexels.com/photos/5946982/pexels-photo-5946982.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "title": "Coffee 16",
+        "short": "lit id rhoncus elementum, tortor sem luctus magna"
+    },
+    {
+        "hero": "discover",
+        "country": "argentina",
+        "id": "sample-coffe-20",
+        "index": 20,
+        "image": "https://images.pexels.com/photos/5946982/pexels-photo-5946982.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "title": "Coffee 20 kjsahksajh",
+        "short": "lit id rhoncus elementum, tortor sem luctus magna"
+    },
+    {
+        "hero": "discover",
+        "country": "japan",
+        "id": "sample-coffe-12",
+        "index": 12,
+        "image": "https://images.pexels.com/photos/5946982/pexels-photo-5946982.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "title": "Coffee 12",
+        "short": "lit id rhoncus elementum, tortor sem luctus magna"
+    },
+    {
+        "hero": "discover",
+        "country": "cuba",
+        "id": "sample-coffe-9",
+        "index": 9,
+        "image": "https://images.pexels.com/photos/4790062/pexels-photo-4790062.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "title": "Coffee 9",
+        "short": "lit id rhoncus elementum, tortor sem luctus magna"
+    }
+]
