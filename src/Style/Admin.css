@@ -1,6 +1,11 @@
+:root{
+    --pink: #FF006E;
+}
+
 .admin__page{
     min-height: 92vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -48,6 +53,38 @@
     margin-top: 10px;
 }
 
+.form__btn{
+    border: none;
+    outline: none;
+    padding: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 5px;
+}
+
+.menu__btn{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: var(--light-blue);
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 0 0.5rem;
+}
+
+.blue__btn{background-color: var(--blue); color: white;}
+
+.close__form--btn{
+    border: none;
+    outline: none;
+    padding: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 1rem;
+    background-color: var(--dark-blue);
+    color: white;
+}
+
 /* LOG IN PAGE */
 .login__email,
 .login__password{
@@ -55,4 +92,68 @@
     margin: 5px;
     padding: 10px 20px;
     outline: none;
+}
+
+/* NEWS/TRENDS FORM */
+.blog__form{
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(255, 0, 110, 0.5); */
+    background-color: white;
+
+}
+
+.blog__form.hide{
+    display: none;
+}
+
+.blog__form .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.blog__form .form__col{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* border: solid 1px var(--pink); */
+    height: 60vh;
+    background-color: white;
+    padding: 1rem 0;
+}
+
+.form__col input{
+    height: 12%;
+    width: 80%;
+    border: solid 1px var(--blue);
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.form__col textarea{
+    width: 80%;
+    height: 40%;
+    border: solid 1px var(--blue);
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.form__col .recipe{
+    height: 25%;
+}
+
+.need__cont{
+    display: flex;
+}
+
+.need__cont .need__input{
+    margin: 0 10px;
 }

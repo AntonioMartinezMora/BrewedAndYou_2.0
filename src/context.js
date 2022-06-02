@@ -1,5 +1,7 @@
 import React, {useEffect, useState, useContext} from 'react';
 import data from './Data.json';
+import { db } from './Firebase-config'
+import { collection, getDocs } from 'firebase/firestore'
 
 const AppContext = React.createContext()
 
@@ -9,6 +11,18 @@ const AppProvider = ({children}) =>{
     const [searchTerm, setSearchTerm] = useState('')
     const [coffeeList, setCoffeeList] = useState(data)
     const [showResults, setShowResults] = useState(false)
+    const [coffeeData, setCoffeeData] = useState([])
+    const dataRef = collection(db, "coffeeData")
+
+    // set coffee database
+    useEffect(()=>{
+        const getData = async() =>{
+            const data = await getDocs(dataRef)
+            setCoffeeData(data.docs.map((doc) =>({...doc.data()})))
+        }
+        getData()
+        // console.log(coffeeData)
+    },[])
 
     // Search Box
     useEffect(() => {
@@ -37,7 +51,8 @@ const AppProvider = ({children}) =>{
         showResults,
         setShowResults,
         data,
-        handleClick
+        handleClick,
+        coffeeData
       }}>
           {children}
     </AppContext.Provider>

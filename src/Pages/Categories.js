@@ -6,11 +6,11 @@ import { useGlobalContext } from '../context'
 
 function Categories(){
     let { category } = useParams()
-    const {data, handleClick} = useGlobalContext()
+    const {coffeeData, handleClick} = useGlobalContext()
 
     return (
         <div className="list__page">
-            {data.map((item)=>{
+            {coffeeData.map((item)=>{
                 if(item.category === category){
                     const {
                         id,

@@ -1,14 +1,15 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from "react-router-dom";
 import '../Style/App.css'
 import { useGlobalContext } from '../context'
 
+
 const Trends = ( ) => {
-    const {data, handleClick} = useGlobalContext()
+    const {handleClick, coffeeData} = useGlobalContext()
 
     return (
     <div className="list__page">
-        {data.map((item) =>{
+        {coffeeData.map((item) =>{
             if(item.type === 'trends'){
                 // console.log(data)
                 const {

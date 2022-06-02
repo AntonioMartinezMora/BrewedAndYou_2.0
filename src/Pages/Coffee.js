@@ -11,11 +11,11 @@ import { useGlobalContext } from '../context'
 
 function Coffee(){
     const {id} = useParams()
-    const {data} = useGlobalContext()
+    const {coffeeData} = useGlobalContext()
 
     return (
         <div className="coffee__container">
-            {data.map((item) =>{
+            {coffeeData.map((item) =>{
                 if(item.id === id){
                     const {
                         id,

@@ -4,11 +4,12 @@ import '../Style/App.css'
 import { useGlobalContext } from '../context'
 
 const News = () => {
-    const {handleClick, data} = useGlobalContext()
+    const {handleClick, coffeeData} = useGlobalContext()
+
 
     return (
         <div className="list__page">
-            {data.map((item) =>{
+            {coffeeData.map((item) =>{
                 if(item.type === 'news'){
                     // console.log(data)
                     const {
