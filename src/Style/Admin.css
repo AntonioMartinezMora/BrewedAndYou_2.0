@@ -157,3 +157,41 @@
 .need__cont .need__input{
     margin: 0 10px;
 }
+
+/* EDIT CONTAINER */
+.edit__cont--form{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.edit__cont{
+    width: 100%;
+    height: 30vh;
+    margin-top: 1rem;
+    padding: 2rem;
+    background-color: var(--light-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit__cont .edit__link--input{
+    height: 2rem;
+    width: 100%;
+    max-width: 350px;
+    margin-right: 1rem;
+    border: solid 1px var(--orange);
+    outline: none;
+    padding-left: 1rem;
+}
+
+.edit__cont .edit__link--btn{
+    background-color: var(--orange);
+    border: none;
+    padding: 0.5rem 1rem;
+    color: var(--light-blue);
+    cursor: pointer;
+}
